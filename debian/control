@@ -1,16 +1,19 @@
 Source: nv-codec-headers
 Section: libdevel
 Priority: optional
-Maintainer: Deepin Developer <deepin-dev@deepin.org>
-Uploaders: Deepin Packages Builder <packages@deepin.org>
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Sebastian Ramacher <sramacher@debian.org>
 Build-Depends: debhelper-compat (= 13),
 Standards-Version: 4.6.0
 Homepage: https://git.videolan.org/?p=ffmpeg/nv-codec-headers.git
+Vcs-Git: https://salsa.debian.org/multimedia-team/nv-codec-headers.git
+Vcs-Browser: https://salsa.debian.org/multimedia-team/nv-codec-headers
 Rules-Requires-Root: no
 
 Package: libffmpeg-nvenc-dev
 Architecture: all
 Depends: ${misc:Depends}
+Multi-Arch: foreign
 Description: FFmpeg headers for interfacing with NVIDIA's codec APIs
  Nvidia's NVDEC (formerly NVCUVID) and NVENC offer offloading of video decoding
  and encoding from the CPU to the GPU. NVDEC and NVENC is supported by NVIDIA
