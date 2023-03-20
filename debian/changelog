@@ -1,3 +1,9 @@
+nv-codec-headers (11.1.5.2-1deepin) unstable; urgency=medium
+
+  * Regulate version name
+
+ -- Yutao Meng <mengyutao@uniontech.com>  Mon, 20 Mar 2023 11:48:38 +0800
+
 nv-codec-headers (11.1.5.2-1) unstable; urgency=medium
 
   [ Debian Janitor ]
