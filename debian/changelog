@@ -1,8 +1,16 @@
-nv-codec-headers (11.1.5.2-1deepin) unstable; urgency=medium
+nv-codec-headers (12.1.14.0-1) unstable; urgency=medium
 
-  * Regulate version name
+  * New upstream version 12.1.14.0
+  * debian/copyright: Update copyright years
 
- -- Yutao Meng <mengyutao@uniontech.com>  Mon, 20 Mar 2023 11:48:38 +0800
+ -- Sebastian Ramacher <sramacher@debian.org>  Sun, 15 Oct 2023 22:09:35 +0200
+
+nv-codec-headers (12.0.16.0-1) unstable; urgency=medium
+
+  * New upstream version 12.0.16.0
+  * debian/copyright: Update copyright years
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Fri, 02 Jun 2023 21:51:32 +0200
 
 nv-codec-headers (11.1.5.2-1) unstable; urgency=medium
 
