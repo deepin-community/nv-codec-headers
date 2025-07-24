@@ -4,7 +4,7 @@ Upstream-Contact: ffmpeg-devel@ffmpeg.org
 Source: https://git.videolan.org/?p=ffmpeg/nv-codec-headers.git
 
 Files: *
-Copyright: 2010-2019, NVIDIA Corporation <linux-bugs@nvidia.com>
+Copyright: 2010-2023, NVIDIA Corporation <linux-bugs@nvidia.com>
 License: Expat
 
 Files: include/ffnvcodec/dynlink_cuda.h
@@ -18,7 +18,7 @@ Comment:
 
 Files: debian/*
 Copyright: 2020, Martin Wimpress <martin.wimpress@ubuntu.com>
-           2021, Sebastian Ramacher
+           2021-2023, Sebastian Ramacher
 License: Expat
 
 License: Expat
